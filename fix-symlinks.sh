@@ -1,7 +1,7 @@
 basePath="/data/web/magento2"
-themes=("Webwijs/intersport" "Webwijs/falconshop" "Webwijs/icepeak" "Webwijs/skikledingstore" "Webwijs/snowenco")
+themes=("VendorA/theme1" "VendorB/theme2")
 locales=("nl_NL" "en_US")
-files=("css/webwijs.css")
+files=("css/styles.css")
 
 for theme in "${themes[@]}"
 do
